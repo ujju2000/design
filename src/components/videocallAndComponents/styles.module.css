@@ -1,0 +1,31 @@
+
+.teacher {
+    background : url('/public/assets/person2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height : 150px;
+    width : 200px;
+    border-radius: 30%;
+    position : relative;
+}
+
+.teacherName {
+    position : absolute;
+    background-color: rgb(238, 234, 234);
+    bottom : 10px;
+    left : -10px;
+    border-radius: 20%;
+    padding : 4px;
+}
+
+.user {
+    background : url('/public/assets/person1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height : 150px;
+    width : 200px;
+    border-radius: 30%;
+    position : relative;
+}
