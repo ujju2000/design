@@ -5,7 +5,7 @@ import VideoCallComponents from './VideoCallComponents';
 
 export default function VideoCall() {
   return (
-    <div className = 'flex flex-col '>
+    <div className = 'flex flex-col items-center'>
 
         <div className = {classes.user}>
             <div className= {classes.teacherName}>Ridha</div>

@@ -4,7 +4,7 @@ import VideoCall from '../videocallAndComponents/VideoCall'
 
 export default function Main() {
   return (
-    <div className = 'w-full p-7 h-full bg-grey-300 flex '>
+    <div className = 'w-[96%] mx-auto p-4  lg:h-full xl:h-[70%] flex items-center '>
         <VideoCall />
         <Preview />
     </div>

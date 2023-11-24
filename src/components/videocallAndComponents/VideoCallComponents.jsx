@@ -7,7 +7,7 @@ import { IoExitOutline } from "react-icons/io5";
 export default function VideoCallComponents() {
     const components = ['cam', 'mic' , 'share', 'chat' , 'leave'];
   return (
-      <div className = 'grid grid-cols-3 w-[200px] gap-2 mt-4'>
+      <div className = 'grid grid-cols-3 w-[90%] gap-2 mt-4'>
         {
             components.map(component => (
             <div className ='flex flex-col items-center'>
